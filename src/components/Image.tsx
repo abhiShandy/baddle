@@ -11,7 +11,6 @@ export const Image = ({ src }) => {
         onClick={() => setOpen(true)}
         loading="lazy"
       />
-      ;
       <ImageModal open={open} setOpen={setOpen} src={src} />
     </>
   );
